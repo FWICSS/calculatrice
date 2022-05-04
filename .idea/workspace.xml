@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Affichage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Affichage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Calculette.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Calculette.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Touch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Touches.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="Update calculatrice">
+      <change afterPath="$PROJECT_DIR$/src/elements/ButtonBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Affichage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Affichage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Affichage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Affichage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Calculette.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Calculette.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Calculette.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Calculette.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Touches.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/ButtonBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Fouillole/l3_info/Semestre 2/Cours_parallele&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -90,8 +85,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651499360935</updated>
-      <workItem from="1651499362587" duration="3178000" />
+      <workItem from="1651499362587" duration="3253000" />
+      <workItem from="1651506469558" duration="1240000" />
+      <workItem from="1651580473585" duration="1824000" />
+      <workItem from="1651599834822" duration="989000" />
+      <workItem from="1651663245715" duration="1256000" />
+      <workItem from="1651664636513" duration="2792000" />
     </task>
+    <task id="LOCAL-00001" summary="Update calculatrice">
+      <created>1651506323570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651506323570</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Update calculatrice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update calculatrice" />
   </component>
 </project>

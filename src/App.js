@@ -1,23 +1,39 @@
-import Wrapper from "./elements/Calculette";
-import Screen from "./elements/Affichage";
-import Button from "./elements/Touch";
-import ButtonBox from "./elements/Button";
+import Calculette from "./elements/Calculette";
+import Touch from "./elements/ButtonBox";
+import Affichage from "./elements/Affichage";
+import Button from "./elements/Button";
+
+const btnValues = [
+    ["C", "Sci", "%", "÷"],
+    [7, 8, 9, "X"],
+    [4, 5, 6, "-"],
+    [1, 2, 3, "+"],
+    ["+/-",0, ".", "="],
+];
 
 const App = () => {
-  return (
-      <Wrapper>
-        <Screen value="0" />
-        <ButtonBox>
-          <Button
-              className=""
-              value="0"
-              onClick={() => {
-                console.log("Button clicked!");
-              }}
-          />
-        </ButtonBox>
-      </Wrapper>
-  );
+    return (
+        <Calculette>
+            <Affichage value="0" />
+            <Touch>
+                {
+                    btnValues.flat().map((btn, i) => {
+                        return (
+                            <Button
+                                key={i}
+                                className={btn === "=" ? "equals" : "" || btn === "C" ? "supp" : ""}
+
+                                value={btn}
+                                onClick={() => {
+                                    console.log(`${btn} clicked!`);
+                                }}
+                            />
+                        );
+                    })
+                }
+            </Touch>
+        </Calculette>
+    );
 };
 
 export default App;

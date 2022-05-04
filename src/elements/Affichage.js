@@ -3,7 +3,7 @@ import "./Affichage.css";
 
 const Affichage = ({ value }) => {
     return (
-        <Textfit className="screen" mode="single" max={70}>
+        <Textfit className="ecran" mode="single" max={70}>
             {value}
         </Textfit>
     );

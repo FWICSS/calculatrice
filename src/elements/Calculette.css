@@ -1,8 +1,8 @@
-.Calculette {
+.calculatrice {
     width: 340px;
     height: 540px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #485461;
-    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #ad06f6 0%, #0763c9 74%);
 }

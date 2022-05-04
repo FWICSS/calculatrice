@@ -1,7 +1,7 @@
 import "./Calculette.css";
 
 const Calculette = ({ children }) => {
-    return <div className="wrapper">{children}</div>;
+    return <div className="calculatrice">{children}</div>;
 };
 
 export default Calculette;
