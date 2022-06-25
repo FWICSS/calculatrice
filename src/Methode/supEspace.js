@@ -1,0 +1,1 @@
+export const supEspace = (numero) => numero.toString().replace(/\s/g, "");

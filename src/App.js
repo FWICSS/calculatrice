@@ -1,39 +1,25 @@
-import Calculette from "./elements/Calculette";
-import Touch from "./elements/ButtonBox";
-import Affichage from "./elements/Affichage";
-import Button from "./elements/Button";
+import React, {Component} from 'react';
+import Calculatrice from "./Calculatrice";
+import Calculatrice_s from "./Calculatrice_s";
 
-const btnValues = [
-    ["C", "Sci", "%", "÷"],
-    [7, 8, 9, "X"],
-    [4, 5, 6, "-"],
-    [1, 2, 3, "+"],
-    ["+/-",0, ".", "="],
-];
+class App extends Component{
+    constructor(props) {
+        super(props);
 
-const App = () => {
-    return (
-        <Calculette>
-            <Affichage value="0" />
-            <Touch>
-                {
-                    btnValues.flat().map((btn, i) => {
-                        return (
-                            <Button
-                                key={i}
-                                className={btn === "=" ? "equals" : "" || btn === "C" ? "supp" : ""}
+        this.state = {
+            mode :false
+        };
+    }
+    render()
+    {
+        return (
+            <div>
 
-                                value={btn}
-                                onClick={() => {
-                                    console.log(`${btn} clicked!`);
-                                }}
-                            />
-                        );
-                    })
-                }
-            </Touch>
-        </Calculette>
-    );
+                {this.state.mode === false && <Calculatrice_s/>}
+
+            </div>
+        );
+    }
 };
 
 export default App;
