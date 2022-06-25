@@ -3,19 +3,25 @@ import Calculatrice from "./Calculatrice";
 import Calculatrice_s from "./Calculatrice_s";
 
 class App extends Component{
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
 
         this.state = {
-            mode :false
+            mode : false
         };
     }
+    modeCalcul(valeur) {
+        this.setState({ mode:valeur});
+    };
+
+
     render()
     {
         return (
             <div>
+                {this.state.mode === false && <Calculatrice  modeSci={this.modeCalcul}/>}
+                {this.state.mode === true && <Calculatrice_s modeCalcul={this.modeCalcul}/>}
 
-                {this.state.mode === false && <Calculatrice_s/>}
 
             </div>
         );

@@ -4,31 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="Update calculatrice">
-      <change afterPath="$PROJECT_DIR$/src/Calculatrice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculatrice_s.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/calcul.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/clique.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/effacer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/egal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/format.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/init_calcul.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/inverse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/operation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/point.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/pourrcentage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methode/supEspace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements_s/ButtonBox_s.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements_s/ButtonBox_s.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements_s/Calculette_s.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements_s/Calculette_s.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="ajout calculatrice scientifique">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Calculette.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Calculette.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculatrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculatrice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculatrice_s.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculatrice_s.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +95,7 @@
       <workItem from="1655925702464" duration="8000" />
       <workItem from="1656077371701" duration="10206000" />
       <workItem from="1656112060961" duration="3292000" />
-      <workItem from="1656115490694" duration="11919000" />
+      <workItem from="1656115490694" duration="16349000" />
     </task>
     <task id="LOCAL-00001" summary="Update calculatrice">
       <created>1651506323570</created>
@@ -131,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651667573271</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ajout calculatrice scientifique">
+      <created>1656189600783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656189600783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update calculatrice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update calculatrice" />
+    <MESSAGE value="ajout calculatrice scientifique" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout calculatrice scientifique" />
   </component>
 </project>

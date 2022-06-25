@@ -101,7 +101,7 @@ const Calculatrice_s = () => {
                 memoire:"",
                 operateur: "",
             });
-        };
+        }
 
     };
 
@@ -128,6 +128,10 @@ const Calculatrice_s = () => {
             });
         }
     };
+    const mode = () => {
+        this.props.modeCalcul("false")
+    }
+
 
     return (
         <Calculette>
@@ -155,7 +159,9 @@ const Calculatrice_s = () => {
                                                             ? point
                                                             : btn === "M"
                                                                 ? sauve
-                                                                : clique
+                                                                : btn === "Cla"
+                                                                    ? mode
+                                                                    : clique
 
 
                                 }

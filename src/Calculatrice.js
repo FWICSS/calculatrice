@@ -38,7 +38,9 @@ const Calculatrice = () => {
             resultat: 0,
         });
     };
-
+    const mode = () => {
+        this.props.modeCalcul("true")
+    }
     const inverse = () => {
         setCalc({
             ...calc,
@@ -134,7 +136,9 @@ const Calculatrice = () => {
                                                         ? operation
                                                         : btn === "."
                                                             ? point
-                                                            : clique
+                                                            : btn ==="Sci"
+                                                                ? mode
+                                                                : clique
 
 
                                 }
