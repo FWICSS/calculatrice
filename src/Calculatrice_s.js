@@ -47,6 +47,58 @@ const Calculatrice_s = () => {
             operateur: "",
         });
     };
+    const cosinus = (e) => {
+        effacer()
+        e.preventDefault()
+        setCalc({
+            ...calc,
+            operateur: "cos(",
+            numero: "cos(",
+
+        })
+    }
+    const sinus = (e) => {
+        effacer()
+        e.preventDefault()
+        setCalc({
+            ...calc,
+            operateur: "sin(",
+            numero: "sin(",
+        })
+    }
+    const tangente = (e) => {
+        effacer()
+        e.preventDefault()
+        setCalc({
+            ...calc,
+            operateur: "tan(",
+            numero: "tan(",
+
+        })
+    }
+    const racine = (e) => {
+        effacer()
+        e.preventDefault()
+        setCalc({
+            ...calc,
+            operateur: "√",
+            numero: "√",
+
+        })
+    }
+    const test = (e) => {
+        setCalc({
+            ...calc,
+            operateur: e.target.innerHTML,
+            resultat: !calc.numero
+                ? calc.resultat
+                : !calc.resultat
+                    ? calc.numero
+                    : format(calcul(Number(supEspace(calc.resultat)), Number(supEspace(calc.numero)), calc.sign)
+                    ),
+            numero: 0,
+        });
+    };
     const pourcentage = () => {
         let numero = calc.numero ? parseFloat(supEspace(calc.numero)) : 0;
         let resultat = calc.resultat ? parseFloat(supEspace(calc.resultat)) : 0;
@@ -56,18 +108,29 @@ const Calculatrice_s = () => {
             resultat: (resultat /= Math.pow(100, 1)),
             operateur: "",
         });
+
     };
+    function extraitNombre(str){ return Number(str.replace(/[^\d]/g, "")) }
     const egal = () => {
+        let ligne = calc.numero ? format(supEspace(extraitNombre(calc.numero))) : 0;
         if (calc.operateur && calc.numero) {
             setCalc({
                 ...calc,
                 resultat:
                     calc.numero === "0" && calc.operateur === "/"
                         ? "division impossible par 0"
-                        : format(
-                            calcul(Number(supEspace(calc.resultat)),
-                                Number(supEspace(calc.numero)),
-                                calc.operateur)),
+                        : calc.operateur === "cos("
+                            ? format(supEspace(Math.cos(ligne)))
+                            : calc.operateur === "sin("
+                                ? format(supEspace(Math.sin(ligne)))
+                                : calc.operateur === "tan("
+                                    ? format(supEspace(Math.tan(ligne)))
+                                    : calc.operateur === "√"
+                                        ? format(supEspace(Math.sqrt(ligne)))
+                            : format(
+                                calcul(Number(supEspace(calc.resultat)),
+                                    Number(supEspace(calc.numero)),
+                                    calc.operateur)),
                 operateur: "",
                 numero: 0,
             });
@@ -161,7 +224,15 @@ const Calculatrice_s = () => {
                                                                 ? sauve
                                                                 : btn === "Cla"
                                                                     ? mode
-                                                                    : clique
+                                                                    : btn === "cos"
+                                                                        ? cosinus
+                                                                        : btn === "sin"
+                                                                            ? sinus
+                                                                            : btn === "tan"
+                                                                                ? tangente
+                                                                                : btn === "√"
+                                                                                    ? racine
+                                                                                    : clique
 
 
                                 }

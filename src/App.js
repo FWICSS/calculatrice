@@ -7,7 +7,7 @@ class App extends Component{
         super();
 
         this.state = {
-            mode : false
+            mode : true
         };
     }
     modeCalcul(valeur) {
