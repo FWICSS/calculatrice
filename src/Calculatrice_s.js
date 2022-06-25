@@ -86,19 +86,7 @@ const Calculatrice_s = () => {
 
         })
     }
-    const test = (e) => {
-        setCalc({
-            ...calc,
-            operateur: e.target.innerHTML,
-            resultat: !calc.numero
-                ? calc.resultat
-                : !calc.resultat
-                    ? calc.numero
-                    : format(calcul(Number(supEspace(calc.resultat)), Number(supEspace(calc.numero)), calc.sign)
-                    ),
-            numero: 0,
-        });
-    };
+
     const pourcentage = () => {
         let numero = calc.numero ? parseFloat(supEspace(calc.numero)) : 0;
         let resultat = calc.resultat ? parseFloat(supEspace(calc.resultat)) : 0;
