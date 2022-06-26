@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="ajout fonction calcul scientifique">
-      <change beforePath="$PROJECT_DIR$/src/Calculatrice_s.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculatrice_s.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +19,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,7 +94,7 @@
       <workItem from="1655925702464" duration="8000" />
       <workItem from="1656077371701" duration="10206000" />
       <workItem from="1656112060961" duration="3292000" />
-      <workItem from="1656115490694" duration="21275000" />
+      <workItem from="1656115490694" duration="25779000" />
     </task>
     <task id="LOCAL-00001" summary="Update calculatrice">
       <created>1651506323570</created>
@@ -129,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656198993834</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajout fonction calcul scientifique">
+      <created>1656199075776</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656199075776</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
