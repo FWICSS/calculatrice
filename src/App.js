@@ -1,26 +1,44 @@
 import React, {Component} from 'react';
 import Calculatrice from "./Calculatrice";
-import Calculatrice_s from "./Calculatrice_s";
+import Calculatricesci from "./Calculatricesci";
 
 class App extends Component{
-    constructor() {
-        super();
-
-        this.state = {
+   state = {
             mode : false
         };
-    }
+
     modeCalcul(valeur) {
-        this.setState({ mode:valeur});
+        (this.state.mode: valeur);
     };
+
+    changeMode = () => {
+
+        console.log(123);
+        if (this.state.mode === false){
+            console.log("mode calculette")
+            const newMode = true;
+
+            this.setState({
+                mode: newMode
+            })
+        }
+        else {
+            console.log("mode calculatrice")
+            const newMode = false;
+
+            this.setState({
+                mode: newMode
+            })
+        }
+    }
 
 
     render()
     {
         return (
             <div>
-                {this.state.mode === false && <Calculatrice  modeSci={this.modeCalcul}/>}
-                {this.state.mode === true && <Calculatrice_s modeCalcul={this.modeCalcul}/>}
+                {this.state.mode === false && <Calculatrice  modeSci={this.changeMode}/>}
+                {this.state.mode === true && <Calculatricesci modeCalcula={this.changeMode}/>}
 
 
             </div>

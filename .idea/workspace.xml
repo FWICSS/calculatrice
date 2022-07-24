@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="ajout fonction calcul scientifique">
+    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="fin de projet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculatrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculatrice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculatrice_s.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculatricesci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Fouillole/l3_info/Semestre_2/Web3/calculatrice/src/elements_s",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/dimitri/site/react-cv&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Fouillole\l3_info\Semestre_2\Web3\calculatrice\src\elements_s" />
@@ -59,20 +63,24 @@
       <recent name="E:\Fouillole\l3_info\Semestre_2\Web3\calculatrice\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.npm build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="npm start" type="js.build_tools.npm">
+    <configuration name="npm build" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="build" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm build" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,6 +103,7 @@
       <workItem from="1656077371701" duration="10206000" />
       <workItem from="1656112060961" duration="3292000" />
       <workItem from="1656115490694" duration="25779000" />
+      <workItem from="1658625717722" duration="7788000" />
     </task>
     <task id="LOCAL-00001" summary="Update calculatrice">
       <created>1651506323570</created>
@@ -160,6 +169,7 @@
     <MESSAGE value="Update calculatrice" />
     <MESSAGE value="ajout calculatrice scientifique" />
     <MESSAGE value="ajout fonction calcul scientifique" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout fonction calcul scientifique" />
+    <MESSAGE value="fin de projet" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin de projet" />
   </component>
 </project>

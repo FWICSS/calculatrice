@@ -22,8 +22,7 @@ const calcul = (a, b, signe) =>
     signe === "+" ? a + b : signe === "-" ? a - b : signe === "*" ? a * b : a/b ;
 
 
-const Calculatrice = () => {
-
+const Calculatrice = ({modeSci}) => {
 
     let [calc, setCalc] = useState({
         operateur: "",
@@ -38,9 +37,6 @@ const Calculatrice = () => {
             resultat: 0,
         });
     };
-    const mode = () => {
-        this.props.modeCalcul("true")
-    }
     const inverse = () => {
         setCalc({
             ...calc,
@@ -137,7 +133,8 @@ const Calculatrice = () => {
                                                         : btn === "."
                                                             ? point
                                                             : btn ==="Sci"
-                                                                ? mode
+                                                                ? modeSci
+
                                                                 : clique
 
 

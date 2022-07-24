@@ -22,7 +22,7 @@ const calcul = (a, b, signe) =>
     signe === "+" ? a + b : signe === "-" ? a - b : signe === "*" ? a * b : a/b ;
 
 
-const Calculatrice_s = () => {
+const Calculatricesci = ({modeCalcula}) => {
 
 
     let [calc, setCalc] = useState({
@@ -179,9 +179,7 @@ const Calculatrice_s = () => {
             });
         }
     };
-    const mode = () => {
-        this.props.modeCalcul("false")
-    }
+
 
 
     return (
@@ -211,7 +209,7 @@ const Calculatrice_s = () => {
                                                             : btn === "M"
                                                                 ? sauve
                                                                 : btn === "Cla"
-                                                                    ? mode
+                                                                    ? modeCalcula
                                                                     : btn === "cos"
                                                                         ? cosinus
                                                                         : btn === "sin"
@@ -234,4 +232,4 @@ const Calculatrice_s = () => {
     );
 };
 
-export default Calculatrice_s;
+export default Calculatricesci;

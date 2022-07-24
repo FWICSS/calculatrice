@@ -1,5 +1,6 @@
 {
   "name": "calculatrice",
+  "homepage": "https://calculatrice.dimitriaigle.fr",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
