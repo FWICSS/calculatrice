@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="fin de projet">
-      <change afterPath="$PROJECT_DIR$/src/elements_s/Button_s.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements_s/Button_s.js" afterDir="false" />
+    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="reglage multiplication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculatrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculatrice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculatricesci.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculatricesci.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +111,7 @@
       <workItem from="1656112060961" duration="3292000" />
       <workItem from="1656115490694" duration="25779000" />
       <workItem from="1658625717722" duration="9044000" />
-      <workItem from="1659284824728" duration="2624000" />
+      <workItem from="1659284824728" duration="2743000" />
     </task>
     <task id="LOCAL-00001" summary="Update calculatrice">
       <created>1651506323570</created>
@@ -189,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659285088276</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="reglage multiplication">
+      <created>1659367031857</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659367031857</updated>
+    </task>
+    <task id="LOCAL-00012" summary="reglage multiplication">
+      <created>1659367088633</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659367088633</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +220,7 @@
     <MESSAGE value="ajout calculatrice scientifique" />
     <MESSAGE value="ajout fonction calcul scientifique" />
     <MESSAGE value="fin de projet" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin de projet" />
+    <MESSAGE value="reglage multiplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="reglage multiplication" />
   </component>
 </project>
