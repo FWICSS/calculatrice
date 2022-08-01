@@ -1,7 +1,7 @@
 import Calculette from "./elements_s/Calculette_s";
 import Touch from "./elements_s/ButtonBox_s";
 import Affichage from "./elements/Affichage";
-import Button from "./elements/Button";
+import Button from "./elements_s/Button_s";
 import React, {useState} from "react";
 
 
@@ -11,15 +11,15 @@ const btnValues = [
     [7, 8, 9, "X","sin"],
     [4, 5, 6, "-","tan"],
     [1, 2, 3, "+","√"],
-    ["+/-",0, ".", "=","M"],
+    ["+/-",0, ".", "="],
 ];
 const format = (numero) =>
     String(numero).replace(/(?<!\..*)(\d)(?=(?:\d{3})+(?:\.|$))/g, "$1 ");
 
 const supEspace = (numero) => numero.toString().replace(/\s/g, "");
 
-const calcul = (a, b, signe) =>
-    signe === "+" ? a + b : signe === "-" ? a - b : signe === "*" ? a * b : a/b ;
+const calcul  = (a, b, sign) =>
+    sign === "+" ? a + b : sign === "-" ? a - b : sign === "X" ? a * b : a / b;
 
 
 const Calculatricesci = ({modeCalcula}) => {
@@ -29,7 +29,6 @@ const Calculatricesci = ({modeCalcula}) => {
         operateur: "",
         numero: 0,
         resultat: 0,
-        memoire:"",
     });
     const effacer = () => {
         setCalc({
@@ -137,24 +136,6 @@ const Calculatricesci = ({modeCalcula}) => {
             numero: 0,
         });
     };
-    const sauve = () =>{
-        if(calc.memoire === ""){
-            setCalc({
-                ...calc,
-                memoire: calc.memoire ? format(supEspace(calc.resultat)) : 0,
-                operateur: "",
-            });
-        }
-        else{
-            setCalc({
-                ...calc,
-                numero: calc.memoire ? calc.memoire : 0,
-                memoire:"",
-                operateur: "",
-            });
-        }
-
-    };
 
     const point = (e) => {
         e.preventDefault();
@@ -206,8 +187,6 @@ const Calculatricesci = ({modeCalcula}) => {
                                                         ? operation
                                                         : btn === "."
                                                             ? point
-                                                            : btn === "M"
-                                                                ? sauve
                                                                 : btn === "Cla"
                                                                     ? modeCalcula
                                                                     : btn === "cos"

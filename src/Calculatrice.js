@@ -18,8 +18,8 @@ const format = (numero) =>
 
 const supEspace = (numero) => numero.toString().replace(/\s/g, "");
 
-const calcul = (a, b, signe) =>
-    signe === "+" ? a + b : signe === "-" ? a - b : signe === "*" ? a * b : a/b ;
+const calcul  = (a, b, sign) =>
+    sign === "+" ? a + b : sign === "-" ? a - b : sign === "X" ? a * b : a / b;
 
 
 const Calculatrice = ({modeSci}) => {
@@ -61,7 +61,7 @@ const Calculatrice = ({modeSci}) => {
                 ...calc,
                 resultat:
                     calc.numero === "0" && calc.operateur === "/"
-                        ? "division impossible par 0"
+                        ? calc.resultat=0
                         : format(
                             calcul(Number(supEspace(calc.resultat)),
                                 Number(supEspace(calc.numero)),
@@ -79,7 +79,12 @@ const Calculatrice = ({modeSci}) => {
                 ? calc.resultat
                 : !calc.resultat
                     ? calc.numero
-                    : format(calcul(Number(supEspace(calc.resultat)), Number(supEspace(calc.numero)), calc.sign)
+                    : format(
+                        calcul(
+                            Number(supEspace(calc.resultat)),
+                            Number(supEspace(calc.numero)),
+                            calc.sign
+                        )
                     ),
             numero: 0,
         });
