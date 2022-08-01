@@ -1,7 +1,7 @@
 import Calculette from "./elements_s/Calculette_s";
 import Touch from "./elements_s/ButtonBox_s";
 import Affichage from "./elements/Affichage";
-import Button from "./elements_s/Button_s";
+import Button_s from "./elements_s/Button_s";
 import React, {useState} from "react";
 
 
@@ -170,9 +170,9 @@ const Calculatricesci = ({modeCalcula}) => {
                 {
                     btnValues.flat().map((btn, i) => {
                         return (
-                            <Button
+                            <Button_s
                                 key={i}
-                                className={btn === "=" ? "equals" : "" || btn === "C" ? "supp" : ""}
+                                className={btn === "=" ? "equals_s" : "" || btn === "C" ? "supp" : ""}
                                 value={btn}
                                 onClick={
                                     btn === "C"

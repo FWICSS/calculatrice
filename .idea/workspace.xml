@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="reglage multiplication">
+    <list default="true" id="f600f9e0-e272-4c78-9ed0-064ab5d868d2" name="Changes" comment="ReadME">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculatricesci.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculatricesci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements_s/Button_s.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements_s/Button_s.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Fouillole/l3_info/Semestre_2/Web3/calculatrice/public",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Fouillole/l3_info/Semestre_2/Web3/calculatrice/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Fouillole\l3_info\Semestre_2\Web3\calculatrice\public" />
@@ -111,7 +112,8 @@
       <workItem from="1656112060961" duration="3292000" />
       <workItem from="1656115490694" duration="25779000" />
       <workItem from="1658625717722" duration="9044000" />
-      <workItem from="1659284824728" duration="2743000" />
+      <workItem from="1659284824728" duration="3078000" />
+      <workItem from="1659367605766" duration="960000" />
     </task>
     <task id="LOCAL-00001" summary="Update calculatrice">
       <created>1651506323570</created>
@@ -197,7 +199,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659367088633</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="reglage multiplication">
+      <created>1659367146461</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659367146461</updated>
+    </task>
+    <task id="LOCAL-00014" summary="reglage multiplication">
+      <created>1659367287539</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659367287539</updated>
+    </task>
+    <task id="LOCAL-00015" summary="reglage multiplication">
+      <created>1659367331809</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659367331809</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
