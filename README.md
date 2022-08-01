@@ -1,13 +1,13 @@
 # Calculatrice/Scientific app
 
-### Context 
+## Context 
 Project School on June 2022
 
-### Deployment
+## Deployment
 deploy on calculatrice.dimitriaigle.fr
 
 
-### Installation
+## Installation
 
     1.git clone https://github.com/madzadev/calculator.git
 ##
