@@ -8,12 +8,6 @@ export default [
     ignores: [
       "build",
       "node_modules",
-      // Ancienne version (Create React App), plus utilisée par l'application
-      "src/Calculatrice.js",
-      "src/Calculatricesci.js",
-      "src/elements",
-      "src/elements_s",
-      "src/Methode",
     ],
   },
   js.configs.recommended,
